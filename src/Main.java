@@ -21,8 +21,7 @@ public class Main {
         T min = elements.iterator().next();
         T max = elements.iterator().next();
 
-        for (T element :
-                elements) {
+        for (T element: elements) {
             if (comparator.compare(element, min) < 0) {
                 min = element;
             } else if (comparator.compare(element, max) > 0) {
